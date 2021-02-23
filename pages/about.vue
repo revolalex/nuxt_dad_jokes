@@ -17,7 +17,7 @@
       <li>SEO optimization</li>
       <li>Universal apps : server side rendering</li>
       <li>Control of head, title, meta etc.</li>
-      <li>Simple page routing</li>
+      <li>Simple pages routing</li>
     </ul>
   </div>
 </template>
