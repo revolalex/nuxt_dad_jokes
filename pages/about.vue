@@ -2,7 +2,7 @@
   <div>
     <h1>About DadJokes</h1>
     <p>This is an app that displays corny dad jokes.</p>
-    <br/>
+    <br />
     <p>I made this app because i wanted to learn Nuxt.js.</p>
     <br />
     <div class="alignCenter">
@@ -19,6 +19,16 @@
       <li>Control of head, title, meta etc.</li>
       <li>Simple pages routing</li>
     </ul>
+    <br />
+    <p>Have a look at my GitHub :</p>
+    <a href="https://github.com/revolalex">
+      <img
+        id="myGit"
+        height="40px"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png"
+        alt=""
+      />
+    </a>
   </div>
 </template>
 
@@ -31,7 +41,8 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: "dad jokes project to learn nuxt.js, you can search a joke by keyword",
+          content:
+            "dad jokes project to learn nuxt.js, you can search a joke by keyword",
         },
       ],
     };
@@ -40,6 +51,13 @@ export default {
 </script>
 
 <style>
+#myGit {
+  transition: all 0.2s ease-in-out;
+}
+#myGit:hover {
+  transform: scale(1.1);
+}
+
 .myUl li {
   list-style: square inside;
 }

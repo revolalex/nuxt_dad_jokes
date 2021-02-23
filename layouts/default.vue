@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <AppHeader/>
-    <nuxt/>
+    <AppHeader />
+    <nuxt />
   </div>
 </template>
 
@@ -9,8 +9,8 @@
 import AppHeader from "../components/AppHeader";
 export default {
   components: {
-    AppHeader
-  }
+    AppHeader,
+  },
 };
 </script>
 
@@ -40,5 +40,14 @@ ul {
   overflow: hidden;
   padding: 1rem 2rem;
   background: #fff;
+}
+@media only screen and (max-width: 840px) {
+  .container {
+    max-width: 90%;
+    margin: 2rem auto;
+    overflow: hidden;
+    padding: 1rem 2rem;
+    background: #fff;
+  }
 }
 </style>
