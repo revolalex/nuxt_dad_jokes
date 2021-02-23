@@ -31,7 +31,7 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: "Best place for corny dad jokes",
+          content: "dad jokes project to learn nuxt.js, you can search a joke by keyword",
         },
       ],
     };

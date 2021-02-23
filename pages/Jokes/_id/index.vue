@@ -79,7 +79,7 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: "Best place for corny dad jokes",
+          content: "Amazing dad jokes, search, about, learning nuxt.js,",
         },
       ],
     };

@@ -14,7 +14,7 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: "Best place for corny dad jokes"
+          content: "Best place for amazing dad jokes, you can search a joke by keyword"
         }
       ]
     };
